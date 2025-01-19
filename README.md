@@ -72,6 +72,14 @@ Words:
 Pseudowords:
 ![alt text](https://github.com/feudor2/LD-Russian-Auditory-Visual-2025/blob/main/images/boxplots_participants_1_0.png?raw=true)
 
+### RT Distribution
+#### Comparing stimuli types:
+![alt text](https://github.com/feudor2/LD-Russian-Auditory-Visual-2025/blob/main/images/probability_distribution_histogram_stimuli.png?raw=true)
+![alt text](https://github.com/feudor2/LD-Russian-Auditory-Visual-2025/blob/main/images/ecdf_stimuli.png?raw=true)
+#### Comparing modalities:
+![alt text](https://github.com/feudor2/LD-Russian-Auditory-Visual-2025/blob/main/images/probability_distribution_histogram_modalities.png?raw=true)
+![alt text](https://github.com/feudor2/LD-Russian-Auditory-Visual-2025/blob/main/images/ecdf_modalities.png?raw=true)
+
 ### RTs & Stimuli Features Correlation
 #### Visual Modality
 Words:
