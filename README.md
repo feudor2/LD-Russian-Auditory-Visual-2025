@@ -43,18 +43,18 @@ Furthermore, the dataset includes particular features of the stimuli, drawn out 
 All words and pseudowords are bisyllabic with evenly distributed stress position (on the first or the second syllable). Other parameters may vary.
 
 In case of the real words:
-* `Freq(ipm)`: logarithmic ipm frequency of a word in Russian National Corpus (Lyaševskay, Šarov 2009)
+* `Freq(ipm)`: logarithmic ipm frequency of a word in Russian National Corpus (Ljashevskaja, Sharoff 2009)
 * `MedianValency`: median standardized value of valency (Sylvester et al 2021)
 * `MeanValency`: mean standardized value of valency
-* `OLD20`: mean orthographic Levenshtein distance to 20 nearest orthographic neighbours (Yarkoni et al., 2008); calculated based on (Lyaševskay, Šarov 2009)'s vocabulary
-* `PLD20`: mean phonetic Levenshtein distance to 20 nearest phonetic neighbours; calculated based on (Lyaševskay, Šarov 2009)'s vocabulary transcription
+* `OLD20`: mean orthographic Levenshtein distance to 20 nearest orthographic neighbours (Yarkoni et al., 2008); calculated based on (Ljashevskaja, Sharoff 2009)'s vocabulary
+* `PLD20`: mean phonetic Levenshtein distance to 20 nearest phonetic neighbours; calculated based on (Ljashevskaja, Sharoff 2009)'s vocabulary transcription
 * `LengthOrth`: word's length in chars
 * `LengthPhon`: word's length in sounds
 * `Duration`: word's recording duration
-* `NormOLD`: `OLD20` divided by `LengthOrth`; calculated based on (Lyaševskay, Šarov 2009)'s vocabulary
-* `NormPLD`: `PLD20` divided by `LengthPhon`; calculated based on (Lyaševskay, Šarov 2009)'s vocabulary transcription
-* `OUP`: orthographic uniqueness point, 1 as the total word length (low uniqueness), or tends to 0 (greater uniqueness); calculated based on (Lyaševskay, Šarov 2009)'s vocabulary
-* `PUP`: phonetic uniqueness point, 1 as the total word phonetic length (low uniqueness), or tends to 0 (greater uniqueness); calculated based on (Lyaševskay, Šarov 2009)'s vocabulary transcription
+* `NormOLD`: `OLD20` divided by `LengthOrth`; calculated based on (Ljashevskaja, Sharoff 2009) 's vocabulary
+* `NormPLD`: `PLD20` divided by `LengthPhon`; calculated based on (Ljashevskaja, Sharoff 2009)'s vocabulary transcription
+* `OUP`: orthographic uniqueness point, 1 as the total word length (low uniqueness), or tends to 0 (greater uniqueness); calculated based on (Ljashevskaja, Sharoff 2009)'s vocabulary
+* `PUP`: phonetic uniqueness point, 1 as the total word phonetic length (low uniqueness), or tends to 0 (greater uniqueness); calculated based on ((Ljashevskaja, Sharoff 2009)'s vocabulary transcription
 * `StressPos`: position of the stressed syllable, `1` or `2`
 
 In case of the pseudowords, all features are relevant, except for the `Freq(ipm)` and valency features, which are set to `NaN`.
@@ -97,7 +97,7 @@ Pseudowords:
 We would like to express our gratitude to all subjects who took the time to participate in our experiment.
 
 ## References
-1. Lyaševskay O. N., Šarov S. A. Frequency dictionary of the modern Russian language based on the materials of the Russian National Corpus. – LLC "Publishing Center Azbukovnik", 2009.
+1. Ljashevskaja O. N. and Sharoff S. A.  Frequency dictionary of the modern Russian language based on the materials of the Russian National Corpus. – LLC "Publishing Center Azbukovnik", 2009.
 2. Peirce J. W. PsychoPy—psychophysics software in Python //Journal of neuroscience methods. – 2007. – Т. 162. – №. 1-2. – С. 8-13.
 3.	Sylvester, T., Liebig, J., & Jacobs, A. M. Neural correlates of affective contributions to lexical decisions in children and adults // Scientific Reports, 11(1). — 2021. — P. 945.
 4.	Yarkoni, T., Balota, D., & Yap, M. Moving beyond Coltheart’s N: A new measure of orthographic similarity // Psychonomic bulletin & review, 15(5). — 2008. — P. 971–979.
